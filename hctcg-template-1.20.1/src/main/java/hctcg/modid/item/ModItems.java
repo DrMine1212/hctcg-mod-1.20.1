@@ -88,7 +88,7 @@ public class ModItems {
     public static final Item Zed_Common = registerItem("zedaph_common", new Item(new FabricItemSettings()));
     public static final Item Zed_Rare = registerItem("zedaph_rare", new Item(new FabricItemSettings()));
     public static final Item Cleo_Common = registerItem("zombiecleo_common", new Item(new FabricItemSettings()));
-    public static final Item Cleo_Rare = registerItem("zombie_cleo_rare", new Item(new FabricItemSettings()));
+    public static final Item Cleo_Rare = registerItem("zombiecleo_rare", new Item(new FabricItemSettings()));
 
     //public static final Item Deck = registerItem("deck", new Item(new FabricItemSettings())); [replace "Deck", "deck" with what you want to add that item]
 
