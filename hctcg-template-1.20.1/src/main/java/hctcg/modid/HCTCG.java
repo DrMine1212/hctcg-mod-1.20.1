@@ -1,5 +1,7 @@
 package hctcg.modid;
 
+import hctcg.modid.item.ModItemGroups;
+import hctcg.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +13,8 @@ public static final String MOD_ID = "hctcg";
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}
